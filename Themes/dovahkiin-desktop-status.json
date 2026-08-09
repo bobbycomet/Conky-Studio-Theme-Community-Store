@@ -1,0 +1,16 @@
+{
+  "id": "dovahkiin-desktop-status",
+  "name": "Skyrim Conky \u2013 Vanilla Edition",
+  "author": "bobbycomet",
+  "version": "2.1.0",
+  "description": "Skyrim-styled status bars for CPU (Health), GPU (Magicka), and RAM (Stamina) that drain like their in-game counterparts, plus a Skyrim-format date display. Ships fully compatible with Conky Studio's Manager tab.",
+  "tags": ["skyrim", "fantasy", "system-monitor", "vanilla"],
+
+  "preview": "https://github.com/user-attachments/assets/c0c66c00-6c03-496c-97cb-a652d250b0cd",
+
+  "link": "https://github.com/bobbycomet/Dovahkiin-Desktop-Status/releases/download/v2.1.0/Skyrim-conky-vanilla.zip",
+
+  "readme_url": "https://raw.githubusercontent.com/bobbycomet/Dovahkiin-Desktop-Status/main/README.md",
+
+  "license": "GPL-3.0"
+}

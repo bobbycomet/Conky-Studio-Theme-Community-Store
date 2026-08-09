@@ -1,0 +1,17 @@
+{
+  "id": "batman-conky-theme",
+  "name": "Batman Conky Theme",
+  "author": "bobbycomet",
+  "version": "1.0.0",
+  "description": "A screen-filling Batcomputer-style Conky HUD centered on a color-shifting bat-signal that reflects system health (calm, warning, critical). Console-style CPU/GPU/RAM/disk readouts, a live calendar, weather, moon phases, and rotating Gotham villain profiles round out the dashboard.",
+  "tags": ["batman", "gotham", "dark", "hud"],
+
+  "preview": "https://github.com/user-attachments/assets/af9d19fb-b7ea-4dec-8432-352722ac4347",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/10107d94-9b31-411b-ab86-f7c55a866b77"
+  ],
+
+  "link": "https://github.com/bobbycomet/Batman-Conky-theme/releases/download/v1.0.0/Batman.tar.gz",
+
+  "readme_url": "https://raw.githubusercontent.com/bobbycomet/Batman-Conky-theme/main/README.md"
+}

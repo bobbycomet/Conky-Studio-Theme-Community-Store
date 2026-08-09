@@ -1,0 +1,18 @@
+{
+  "id": "skyrim-conky-parchment",
+  "name": "Skyrim Conky \u2013 Parchment Edition",
+  "author": "bobbycomet",
+  "version": "1.1.0",
+  "description": "A parchment-styled Conky theme built to look like a page out of Skyrim's in-game journal. Tracks CPU, RAM, storage, and network use with bars that drain like in-game resources, alongside real-world weather, date, moon phases, and a Dragon Word display. Fully compatible with Conky Studio's Manager tab.",
+  "tags": ["skyrim", "fantasy", "parchment", "system-monitor"],
+
+  "preview": "https://github.com/user-attachments/assets/00a65f56-e9b5-4b1b-8b24-400172ba965f",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/1359d1bb-5e92-40e2-9abe-fe2138f59956",
+    "https://github.com/user-attachments/assets/4d5e1e5f-c5c2-4fa6-85d8-2fe70f29d5c1"
+  ],
+
+  "link": "https://github.com/bobbycomet/Skyrim-conky-parchment-/releases/download/v1.1.0/skyrim.zip",
+
+  "readme_url": "https://raw.githubusercontent.com/bobbycomet/Skyrim-conky-parchment-/main/README.md"
+}
