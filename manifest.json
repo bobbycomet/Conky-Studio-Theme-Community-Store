@@ -1,1 +1,9 @@
-
+{
+  "api_version": "1.0",
+  "updated_at": "2026-08-09",
+  "themes": [
+    { "$ref": "Themes/skyrim-conky-parchment.json" },
+    { "$ref": "Themes/dovahkiin-desktop-status.json" },
+    { "$ref": "Themes/batman-conky-theme.json" }
+  ]
+}
