@@ -19,7 +19,7 @@ any other static host.
 }
 ```
 
-`themes` entries may also be full theme objects inline instead of a `$ref` —
+`themes` entries may also be full theme objects inline instead of a `$ref`;
 useful for a single-theme repo that doesn't want a `Themes/` folder at all.
 
 ## Themes/<id>.json
@@ -53,7 +53,7 @@ useful for a single-theme repo that doesn't want a `Themes/` folder at all.
 
 | Field | Required | Notes |
 |---|---|---|
-| `id` | **yes** | Unique slug. Used in the URL hash (`#/theme/<id>`) and as the copy-target for "Copy theme ID". |
+| `id` | **yes** | Unique slug. Used in the URL hash (`#/theme/<id>`) and as the copy target for "Copy theme ID". |
 | `name` | no | Display title. Falls back to `id`. |
 | `author` | no | Falls back to "unattributed". |
 | `version` | no | Free-form string. |
@@ -61,16 +61,16 @@ useful for a single-theme repo that doesn't want a `Themes/` folder at all.
 | `tags` | no | Array of strings. Drives the tag-filter row. |
 | `preview` | no | Path relative to *this JSON file* (or an absolute URL). This is the card's hero image, so themes without one just fall back to a placeholder — don't skip it if you can help it. |
 | `screenshots` | no | Extra images shown in a gallery on the detail page only. |
-| `plugins` | no | Plugin IDs (as listed on Node Vault) this theme depends on. Rendered as chips linking back to the plugin's Node Vault page. Omit if the theme only uses built-in nodes. |
-| `link` | **yes** | Where to actually get it — the GitHub repo, Pling/openDesktop page, KDE Store listing, etc. This is a "go install it there" link, not a direct-download URL the app fetches for you. |
-| `host` | no | Label shown as a badge ("GitHub", "Pling", "KDE Store", "openDesktop", "GitLab"). Auto-detected from `link`'s domain if omitted — only set this if the auto-detect would guess wrong. |
+| `plugins` | no | Plugin IDs (as listed on Node Vault) that this theme depends on. Rendered as chips linking back to the plugin's Node Vault page. Omit if the theme only uses built-in nodes. |
+| `link` | **yes** | Where to actually get it: the GitHub repo, Pling/openDesktop page, KDE Store listing, etc. This is a "go install it there" link, not a direct-download URL the app fetches for you. |
+| `host` | no | Label shown as a badge ("GitHub", "Pling", "KDE Store", "openDesktop", "GitLab"). Auto-detected from `link`'s domain if omitted; only set this if the auto-detect would guess wrong. |
 | `readme` | no | Inline markdown string, for short READMEs you'd rather not host separately. |
-| `readme_url` | no | URL to a raw markdown file, fetched lazily only when someone opens the detail page (not preloaded for the whole grid). If both `readme` and `readme_url` are set, `readme` wins. |
+| `readme_url` | no | URL to a raw Markdown file, fetched lazily only when someone opens the detail page (not preloaded for the whole grid). If both `readme` and `readme_url` are set, `readme` wins. |
 | `license` | no | Free-form string (e.g. "GPL-3.0", "MIT", "CC-BY-SA-4.0"). |
 | `resolution` | no | e.g. `"1920x1080"` — helps people browsing skip themes built for the wrong aspect ratio. |
-| `conky_version` | no | Compatibility note, e.g. `"1.19+"`. |
+| `conky_version` | no | Compatibility note, e.g., `"1.19+"`. |
 
-Everything except `id` and `link` is optional and has a safe fallback — a
+Everything except `id` and `link` is optional and has a safe fallback; a
 minimal entry with just those two fields and a `preview` will still render
 correctly, just sparsely.
 
@@ -80,5 +80,5 @@ Unlike the OCS/community-store install pipeline (`store.json` +
 `sha256`-verified download-and-install), Theme Vault is a **catalog, not an
 installer**. `link` sends people to wherever the theme actually lives; Theme
 Vault itself never downloads or executes anything. There's no checksum field
-here because there's nothing here to check a checksum against — that's a
+here because there's nothing here to check a checksum against; that's a
 deliberate difference from the in-app store, not an oversight.
