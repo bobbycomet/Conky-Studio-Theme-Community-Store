@@ -74,11 +74,3 @@ Everything except `id` and `link` is optional and has a safe fallback; a
 minimal entry with just those two fields and a `preview` will still render
 correctly, just sparsely.
 
-### A note on trust
-
-Unlike the OCS/community-store install pipeline (`store.json` +
-`sha256`-verified download-and-install), Theme Vault is a **catalog, not an
-installer**. `link` sends people to wherever the theme actually lives; Theme
-Vault itself never downloads or executes anything. There's no checksum field
-here because there's nothing here to check a checksum against; that's a
-deliberate difference from the in-app store, not an oversight.
